@@ -257,10 +257,6 @@ function App() {
         <p><a href='tourism policy'>Tourism Policy</a></p>
 
       </div>
-<div className='vd'>
-       <p>golu</p>
-
-      </div>
       
 
     </div>
