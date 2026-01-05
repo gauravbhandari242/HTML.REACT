@@ -1,0 +1,67 @@
+.text{color: rgb(6, 6, 141); 
+font-size: 48px;
+margin: 15px;
+font-weight: 700;
+
+}
+
+.App{display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+margin: 49px auto;
+padding:0px;
+width: 400px;
+border-radius:30px;
+background-color: white;
+box-shadow: 10px 10px black;
+height: 500px;
+cursor: pointer;
+
+}
+.nev input{
+        padding: 0 5px;
+        height: 20px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        margin: 20px;
+        
+  
+
+
+}
+
+.submit-container {
+        display: flex;
+justify-content: center;
+margin:0 auto;
+padding: 30px; 
+border-radius: 60px;
+}
+
+
+
+
+.submit, .sumit{
+        margin: 20px;
+  
+}.a1 span::before{
+
+position: absolute;
+top: 40px;
+left: 0;
+width: 0px;
+height: 2px;
+background: #2691d9;
+transition: .5s;
+}
+.a1 label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        color: #adadad;
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+      }

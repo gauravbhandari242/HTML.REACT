@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Carousel</title>
+    <style>
+        /* CSS Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .carousel {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .carousel-slide img {
+            width: 100%;
+            display: block;
+        }
+
+        .text-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <button class="prev">←</button>
+        <div class="carousel-track">
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/800x400?text=Image+1" alt="Image 1">
+                <div class="text-overlay">Text for Image 1</div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/800x400?text=Image+2" alt="Image 2">
+                <div class="text-overlay">Text for Image 2</div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/800x400?text=Image+3" alt="Image 3">
+                <div class="text-overlay">Text for Image 3</div>
+            </div>
+        </div>
+        <button class="next">→</button>
+    </div>
+    <script>
+        // JavaScript for Carousel Functionality
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const prevButton = document.querySelector('.prev');
+        const nextButton = document.querySelector('.next');
+        const slideWidth = slides[0].getBoundingClientRect().width;
+
+        let currentIndex = 0;
+
+        const updateCarousel = () => {
+            track.style.transform = `translateX(${-slideWidth * currentIndex}px)`;
+        };
+
+        prevButton.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateCarousel();
+            }
+        });
+
+        nextButton.addEventListener('click', () => {
+            if (currentIndex < slides.length - 1) {
+                currentIndex++;
+                updateCarousel();
+            }
+        });
+    </script>
+</body>
+</html>

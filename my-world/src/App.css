@@ -1,0 +1,226 @@
+
+.vib:hover{
+    
+    background-image:url(photo/ut.jpg);
+    background-color: rgba(186, 217, 221, 0.726);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1310;
+    padding:1px;
+    margin: top 20px;
+       text-align: center;
+
+}
+
+
+    .fist{
+        
+        justify-content: center;
+        text-align: center;
+        background-color: #2f8d46;
+        background-image: url(
+"https://media.geeksforgeeks.org/wp-content/uploads/20231218222854/1.png");
+          background-repeat: repeat;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin: 120px; 
+          font-size: 40px;
+          font-weight: bold;
+          text-transform: uppercase;
+          font-family: 'Steelfish Rg', 'helvetica neue', 
+                          helvetica, arial, sans-serif;}
+.poop {
+display: flex;
+justify-content: center;}
+
+
+.oop{
+display: flex;
+justify-content: center;
+color: blue;
+width: 1300px;
+margin: 60px;}
+
+
+.button{
+display: flex;
+justify-content: center;
+text-align: center;
+margin: 30px;}
+
+.gojo{
+display: flex;
+justify-content: center;
+font-size: x-large;}
+
+
+.mex{
+    justify-content:center;
+    background-image:url(photo/thrill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 30px 20px;}
+
+
+.src{
+display: flex;
+justify-content: center;}
+
+
+.word{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color:gray;}
+
+.need img{display: flex;
+justify-content: center;
+margin: 0px auto;
+text-align: center;
+border-radius: 10px 30px 20px;}
+
+
+
+.uttarakhand{
+display: flex;
+justify-content: space-around;}
+
+
+.flip-back-www{
+justify-content: center;
+text-align: center;
+align-items: center;
+color: antiquewhite;
+border-radius:0px 10px 10px;
+justify-content: space-around;margin-right: 30px;
+
+}
+
+.pik{text-align: center;
+    
+
+
+
+}
+
+
+
+.select{
+display: flex;
+justify-content: center;
+background-color: rgba(52, 119, 158, 0.205);
+padding: 30px;
+font-size: x-large;
+border-radius:30px 30px ;
+gap: 30px;
+margin: 60px;}
+
+
+.more{
+display: flex;
+justify-content:center;
+margin: 10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: x-large;
+}
+
+
+.nav{
+display: flex;
+text-align: center;
+justify-content: center;}
+
+.row{
+display: flex;
+text-align: center;
+justify-content: center;}
+
+.column
+{display: flex;
+    text-align: center;
+justify-content: center;
+}
+
+.video{
+display: flex;
+text-align: center;
+justify-content: center;
+font-size: x-large;
+font-family: fantasy;}
+
+.fun{
+display: flex;
+justify-content: center;
+margin: 30px;
+height: 500px;}
+
+
+.form-inline{
+display: flex;
+justify-content: center;
+background-color: royalblue;
+margin: 60px;
+padding: 30px;
+border-radius: 30px 30px;}
+
+
+.footer{
+display:flex;
+justify-content: center;
+background-color: antiquewhite;
+padding: 60px;
+margin: 60px;
+gap: 30px;}
+
+
+.flip-front img {
+    border-radius: 30px 20px;}
+
+.filp-back-www {
+border-radius: 200px, 30px;
+
+
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+.filp{
+display: flex;
+justify-content: center;
+justify-content: space-between;}
+
+.text
+{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: small;
+
+}
+.image-container{
+justify-content: center;
+align-items: center;
+margin: 60px;}
+
+
+.container{
+    background-image: url(photo/ut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 20px;}
+
+
+    .image-container img{
+    border-radius: 30px 20px ;
+    
+
+}
+.vd{
+text-align: center;
+color:gold;
+padding: 1pc;
+background-color: black;
+border-radius: 25px;
+margin: 10px;
+}        
